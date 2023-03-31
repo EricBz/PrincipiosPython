@@ -4,11 +4,17 @@ cadena = "hola es una cadena."
 print(cadena)
 mostrarTipo = type(cadena)
 print(mostrarTipo)
+numero = 29
+booleano = True
+print(type(numero))
+print(type(booleano))
 
 #lista
 lista = [1,2,3,4,5]
 print(type(lista))
 print(lista)
+#Para ver el numero deberemos pasarlo a string, esto lo haremos con la fn str().
+print("Este es un elemento en la lista, el numero: "+str(lista[2]))
 
 #tupla
 tupla = (1,2,3,4,5)
